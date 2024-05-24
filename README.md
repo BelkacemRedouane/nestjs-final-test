@@ -1,3 +1,34 @@
+## Package Scripts
+
+Here is a summary of the available npm scripts:
+
+- **Clone the repository:**
+    ```bash
+    git clone https://github.com/BelkacemRedouane/nestjs-final-test.git
+    cd nestjs-final-test
+    ```
+- **Install dependencies:**
+    ```bash
+    npm ci
+    ```
+- **Start the application with MongoDB (Windows):**
+    ```bash
+    npm run start:mongodb:windows
+    ```
+- **Start the application with MongoDB (Linux):**
+    ```bash
+    npm run start:mongodb:linux
+    ```
+- **Run end-to-end tests with MongoDB (Windows):**
+    ```bash
+    npm run test:e2e:mongodb:windows
+    ```
+- **Run end-to-end tests with MongoDB (Linux):**
+    ```bash
+    npm run test:e2e:mongodb:linux
+    ```
+
+
 # NestJS Final Test Project
 
 This project is a NestJS application with end-to-end tests using MongoDB. This guide will help you set up the project, run the application, and execute tests.
@@ -71,39 +102,7 @@ This project is a NestJS application with end-to-end tests using MongoDB. This g
 
     This will set the `DBMS` environment variable to `mongodb`, start the MongoDB container, and execute the tests.
 
-## Environment Variables
 
-Make sure to configure your `.env` file with the appropriate settings for your database and other environment variables.
-
-## Package Scripts
-
-Here is a summary of the available npm scripts:
-
-- **Clone the repository:**
-    ```bash
-    git clone https://github.com/BelkacemRedouane/nestjs-final-test.git
-    cd nestjs-final-test
-    ```
-- **Install dependencies:**
-    ```bash
-    npm ci
-    ```
-- **Start the application with MongoDB (Windows):**
-    ```bash
-    npm run start:mongodb:windows
-    ```
-- **Start the application with MongoDB (Linux):**
-    ```bash
-    npm run start:mongodb:linux
-    ```
-- **Run end-to-end tests with MongoDB (Windows):**
-    ```bash
-    npm run test:e2e:mongodb:windows
-    ```
-- **Run end-to-end tests with MongoDB (Linux):**
-    ```bash
-    npm run test:e2e:mongodb:linux
-    ```
 
 
 
