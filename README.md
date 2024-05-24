@@ -105,10 +105,6 @@ Here is a summary of the available npm scripts:
     npm run test:e2e:mongodb:linux
     ```
 
----
 
-This README provides detailed instructions for setting up, running, and testing your NestJS project with MongoDB, including commands for both Windows and Linux platforms.
-
----
 
 
